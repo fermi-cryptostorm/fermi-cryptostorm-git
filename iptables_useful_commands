@@ -10,4 +10,6 @@ Induces two second refresh.
 
 to investigate: https://collectd.org/wiki/index.php/Iptables
 
+reset counters: iptables -L -Z -v
+
 
