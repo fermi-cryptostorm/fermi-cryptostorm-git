@@ -103,16 +103,17 @@ linux-balancer	      	    	130.180.201.117
 linux-london		      	130.180.201.117
 linux-turing1		      	130.180.201.117
 
-mishigami | Kansas City		
-mishigami.deepdns             	198.204.245.3
-windows-dynamic			198.204.245.6
-windows-balancer		198.204.245.6
-windows-uscentral		198.204.245.6
-windows-mishigami2		198.204.245.6
-linux-dynamic			198.204.245.2		
-linux-balancer			198.204.245.2		
-linux-uscentral			198.204.245.2				
-linux-mishigami2		198.204.245.2			
+sly | kansas city
+sly.cryptostorm.net		142.54.172.50
+sly.deepdns			142.54.172.53
+windows-dynamic			142.54.172.51
+windows-balancer		142.54.172.51
+windows-uscentral		142.54.172.51
+windows-sly			142.54.172.51
+linux-dynamic			142.54.172.52
+linux-balancer			142.54.172.52
+linux-kansascity	  	142.54.172.52
+linux-sly			142.54.172.52
 
 tagus | Lisbon
 tagus.deepdns			109.71.42.228		
