@@ -103,17 +103,15 @@ linux-balancer	      	    	130.180.201.117
 linux-london		      	130.180.201.117
 linux-turing1		      	130.180.201.117
 
-sly | kansas city
-sly.cryptostorm.net		142.54.172.50
+sly | UScentral
+DEPRECATING "DYNAMIC"
 sly.deepdns			142.54.172.53
-windows-dynamic			142.54.172.51
 windows-balancer		142.54.172.51
 windows-uscentral		142.54.172.51
-windows-sly			142.54.172.51
-linux-dynamic			142.54.172.52
+windows-sly1			142.54.172.51
 linux-balancer			142.54.172.52
-linux-kansascity	  	142.54.172.52
-linux-sly			142.54.172.52
+linux-uscentral		  	142.54.172.52
+linux-sly1			142.54.172.52
 
 tagus | Lisbon
 tagus.deepdns			109.71.42.228		
