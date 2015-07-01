@@ -20,14 +20,16 @@ linux-cryptofree		212.129.34.154
 _ _ _
 
 fenrir | Iceland
-fenrir.deepdns.	        	79.134.235.131
-windows-dynamic			79.134.235.134
-windows-balancer		79.134.235.134
-windows-iceland			79.134.235.134
+ROLLOVER MAPPINGS - LISBON (temporary)
+fenrir.cryptostorm.net		79.134.235.130
+fenrir.deepdns	        	109.71.42.228
+windows-dynamic			109.71.42.164
+windows-balancer		109.71.42.164
+windows-iceland			109.71.42.164
 windows-fenrir1			79.134.235.134
-linux-dynamic			79.134.235.133
-linux-balancer			79.134.235.133
-linux-iceland			79.134.235.133
+linux-dynamic			109.71.42.163
+linux-balancer			109.71.42.163
+linux-iceland			109.71.42.163
 linux-fenrir1			79.134.235.133
 
 majulah  | Singapore
