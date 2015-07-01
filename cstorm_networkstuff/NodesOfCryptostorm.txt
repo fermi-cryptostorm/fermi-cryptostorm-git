@@ -10,6 +10,8 @@ linux-cryptofree2		212.129.10.40
 linux-cryptofree		212.129.10.40	
 
 cryptofree-i | Paris
+cf-i.deepdns			212.129.46.86 {using Onyx pending IP assignment}
+cf-i.dns			212.129.46.86 {using Onyx pending IP assignment}		        
 windows-cryptofree1-a		195.154.33.73
 windows-cryptofree1		195.154.33.73
 windows-cryptofree		195.154.33.73
@@ -21,7 +23,6 @@ _ _ _
 
 fenrir | Iceland
 ROLLOVER MAPPINGS - LISBON (temporary)
-fenrir.cryptostorm.net		79.134.235.130
 fenrir.deepdns	        	109.71.42.228
 windows-dynamic			109.71.42.164
 windows-balancer		109.71.42.164
@@ -106,7 +107,6 @@ linux-london		      	130.180.201.117
 linux-turing1		      	130.180.201.117
 
 sly | kansas city
-sly.cryptostorm.net		142.54.172.50
 sly.deepdns			142.54.172.53
 windows-balancer		142.54.172.51
 windows-uscentral		142.54.172.51
@@ -145,3 +145,12 @@ windows-miyamoto1		124.35.151.86
 linux-balancer			124.35.151.88
 linux-tokyo	  		124.35.151.88
 linux-miyamoto1			124.35.151.88
+
+jeremy | kansas city
+jeremy.deepdns			172.86.180.213
+windows-balancer		172.86.180.211
+windows-uscentral		172.86.180.211
+windows-jeremy1			172.86.180.211
+linux-balancer			172.86.180.212
+linux-uscentral		  	172.86.180.212
+linux-jeremy1			172.86.180.212
