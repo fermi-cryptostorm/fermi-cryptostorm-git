@@ -103,14 +103,14 @@ linux-balancer	      	    	130.180.201.117
 linux-london		      	130.180.201.117
 linux-turing1		      	130.180.201.117
 
-sly | UScentral  {TEMPORARY REMAP TO USWEST DURING OUTAGE]
+sly | kansas city
 sly.cryptostorm.net		142.54.172.50
-sly.deepdns			76.164.234.11
-windows-balancer		76.164.234.13
-windows-uscentral		76.164.234.13
+sly.deepdns			142.54.172.53
+windows-balancer		142.54.172.51
+windows-uscentral		142.54.172.51
 windows-sly1			142.54.172.51
-linux-balancer			76.164.234.12
-linux-uscentral		  	76.164.234.12
+linux-balancer			142.54.172.52
+linux-uscentral		  	142.54.172.52
 linux-sly1			142.54.172.52
 
 tagus | Lisbon
@@ -136,7 +136,6 @@ linux-stpetersburg	  	91.214.70.206
 linux-laika1			91.214.70.206
 
 miyamoto  |  tokyo
-DEPRECATING "DYNAMIC"
 miyamoto.deepdns		124.35.151.85
 windows-balancer		124.35.151.86
 windows-tokyo			124.35.151.86
