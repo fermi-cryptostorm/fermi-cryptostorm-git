@@ -1,4 +1,14 @@
-cryptofree-ii | Paris
+cryptofree-i | Paris
+cf-i.deepdns			212.129.46.86 {using Onyx pending IP assignment}
+cf-i.dns			212.129.46.86 {using Onyx pending IP assignment}
+windows-cryptofree1-a		195.154.33.73
+windows-cryptofree1		195.154.33.73
+windows-cryptofree		195.154.33.73
+linux-cryptofree1-a		212.129.34.154
+linux-cryptofree1		212.129.34.154
+linux-cryptofree		212.129.34.154
+
+cryptofree-ii | Paris {previously: bukowski}
 cf-ii.deepdns			195.154.61.33
 cf-ii.dns			195.154.61.33
 windows-cryptofree2-a		195.154.33.76
@@ -9,29 +19,6 @@ linux-cryptofree2-a		212.129.10.40
 linux-cryptofree2		212.129.10.40	
 linux-cryptofree		212.129.10.40	
 
-cryptofree-i | Paris
-cf-i.deepdns			212.129.46.86 {using Onyx pending IP assignment}
-cf-i.dns			212.129.46.86 {using Onyx pending IP assignment}		        
-windows-cryptofree1-a		195.154.33.73
-windows-cryptofree1		195.154.33.73
-windows-cryptofree		195.154.33.73
-linux-cryptofree1-a		212.129.34.154
-linux-cryptofree1		212.129.34.154
-linux-cryptofree		212.129.34.154
-
-_ _ _
-
-fenrir | Iceland
-ROLLOVER MAPPINGS - LISBON (temporary)
-fenrir.deepdns	        	109.71.42.228
-windows-dynamic			109.71.42.164
-windows-balancer		109.71.42.164
-windows-iceland			109.71.42.164
-windows-fenrir1			79.134.235.134
-linux-dynamic			109.71.42.163
-linux-balancer			109.71.42.163
-linux-iceland			109.71.42.163
-linux-fenrir1			79.134.235.133
 
 majulah  | Singapore
 majulah.deepdns			103.254.153.244
@@ -106,15 +93,6 @@ linux-balancer	      	    	130.180.201.117
 linux-london		      	130.180.201.117
 linux-turing1		      	130.180.201.117
 
-sly | kansas city
-sly.deepdns			142.54.172.53
-windows-balancer		142.54.172.51
-windows-uscentral		142.54.172.51
-windows-sly1			142.54.172.51
-linux-balancer			142.54.172.52
-linux-uscentral		  	142.54.172.52
-linux-sly1			142.54.172.52
-
 tagus | Lisbon
 tagus.deepdns			109.71.42.228		
 windows-dynamic			109.71.42.164
@@ -146,11 +124,32 @@ linux-balancer			124.35.151.88
 linux-tokyo	  		124.35.151.88
 linux-miyamoto1			124.35.151.88
 
+sly | kansas city
+sly.deepdns			142.54.172.53
+windows-balancer		142.54.172.51
+windows-uscentral		142.54.172.51
+windows-sly1			142.54.172.51
+linux-balancer			142.54.172.52
+linux-uscentral		  	142.54.172.52
+linux-sly1			142.54.172.52
+
 jeremy | kansas city
-jeremy.deepdns			172.86.180.213
+jeremy.deepdns			172.86.180.21
 windows-balancer		172.86.180.211
 windows-uscentral		172.86.180.211
 windows-jeremy1			172.86.180.211
 linux-balancer			172.86.180.212
 linux-uscentral		  	172.86.180.212
-linux-jeremy1			172.86.180.212
+linux-jeremy1			172.86.180.2122
+
+fenrir | Iceland
+ROLLOVER MAPPINGS - LISBON (temporary)
+fenrir.deepdns	        	109.71.42.228
+windows-dynamic			109.71.42.164
+windows-balancer		109.71.42.164
+windows-iceland			109.71.42.164
+windows-fenrir1			79.134.235.134
+linux-dynamic			109.71.42.163
+linux-balancer			109.71.42.163
+linux-iceland			109.71.42.163
+linux-fenrir1			79.134.235.133
