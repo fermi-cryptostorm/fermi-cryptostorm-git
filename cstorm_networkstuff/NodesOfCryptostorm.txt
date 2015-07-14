@@ -1,4 +1,4 @@
-cryptofree-i | Paris
+cryptofree-i | paris
 cf-i.deepdns			212.129.46.86 {using Onyx pending IP assignment}
 cf-i.dns			212.129.46.86 {using Onyx pending IP assignment}
 windows-cryptofree1-a		195.154.33.73
@@ -8,7 +8,7 @@ linux-cryptofree1-a		212.129.34.154
 linux-cryptofree1		212.129.34.154
 linux-cryptofree		212.129.34.154
 
-cryptofree-ii | Paris {previously: bukowski}
+cryptofree-ii | paris {previously: bukowski}
 cf-ii.deepdns			195.154.61.33
 cf-ii.dns			195.154.61.33
 windows-cryptofree2-a		195.154.33.76
@@ -20,7 +20,7 @@ linux-cryptofree2		212.129.10.40
 linux-cryptofree		212.129.10.40	
 
 
-majulah  | Singapore
+majulah  | singapure
 majulah.deepdns			103.254.153.244
 windows-balancer	        103.254.153.242
 windows-singapore               103.254.153.242
@@ -29,7 +29,7 @@ linux-balancer			103.254.153.243
 linux-singapore			103.254.153.243
 linux-majulah1		        103.254.153.243
 
-stakaya | Seattle
+stakaya | uswest
 stakaya.deepdns                 76.164.234.11
 windows-balancer		76.164.234.13		
 windows-uswest			76.164.234.13
@@ -38,7 +38,7 @@ linux-balancer		    	76.164.234.12
 linux-uswest			76.164.234.12			
 linux-stakaya1		    	76.164.234.12			
 
-onyx | Paris
+onyx | paris
 onyx.deepdns                	212.129.46.86
 windows-dynamic			212.83.163.209
 windows-balancer	        212.83.163.209
@@ -49,7 +49,7 @@ linux-balancer	    	      	212.83.167.81
 linux-paris			212.83.167.81
 linux-onyx1			212.83.167.81
 
-alors | Paris
+alors | paris
 alors.deepdns               	212.129.46.32
 windows-dynamic			212.129.25.237
 windows-balancer	     	212.129.25.237
@@ -60,7 +60,7 @@ linux-balancer	            	212.83.161.53
 linux-paris			212.83.161.53
 linux-alors1			212.83.161.53
 
-cantus | Frankfurt
+cantus | frankfurt
 cantus.deepdns              	46.165.222.246
 windows-dynamic			46.165.222.245
 windows-balancer		46.165.222.245
@@ -124,7 +124,7 @@ linux-balancer			124.35.151.88
 linux-tokyo	  		124.35.151.88
 linux-miyamoto1			124.35.151.88
 
-sly | kansas city
+sly | uscentral
 sly.deepdns			142.54.172.53
 windows-balancer		142.54.172.51
 windows-uscentral		142.54.172.51
@@ -133,14 +133,14 @@ linux-balancer			142.54.172.52
 linux-uscentral		  	142.54.172.52
 linux-sly1			142.54.172.52
 
-jeremy | kansas city
-jeremy.deepdns			172.86.180.21
-windows-balancer		172.86.180.211
-windows-uscentral		172.86.180.211
-windows-jeremy1			172.86.180.211
-linux-balancer			172.86.180.212
-linux-uscentral		  	172.86.180.212
-linux-jeremy1			172.86.180.2122
+jeremy | uscentral
+jeremy.deepdns			172.98.201.43
+windows-balancer		172.98.201.44
+windows-uscentral		172.98.201.44
+windows-jeremy1			172.98.201.44
+linux-balancer			172.98.201.45
+linux-uscentral		  	172.98.201.45
+linux-jeremy1			172.98.201.45
 
 fenrir | Iceland
 ROLLOVER MAPPINGS - LISBON (temporary)
