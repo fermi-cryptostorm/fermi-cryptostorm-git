@@ -134,12 +134,12 @@ linux-uscentral		  	142.54.172.52
 linux-sly1			142.54.172.52
 
 jeremy | uscentral
-jeremy.deepdns			172.98.201.43
-windows-balancer		172.98.201.44
-windows-uscentral		172.98.201.44
+jeremy.deepdns			142.54.172.53 {temporary failover to sly}
+windows-balancer		142.54.172.51 {temporary failover to sly}
+windows-uscentral		142.54.172.51 {temporary failover to sly}
 windows-jeremy1			172.98.201.44
-linux-balancer			172.98.201.45
-linux-uscentral		  	172.98.201.45
+linux-balancer			142.54.172.52 {temporary failover to sly}
+linux-uscentral		  	142.54.172.52 {temporary failover to sly}
 linux-jeremy1			172.98.201.45
 
 fenrir | Iceland
