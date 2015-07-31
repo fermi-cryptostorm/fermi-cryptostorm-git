@@ -1,6 +1,63 @@
+PENDING NODES: IN-NETWORK & CURRENTLY UNDERGOING PROVISIONINING + PRODUCTION TESTING
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+*** | canadaeast (anchor node)
+PENDING DEPLOY
+***.deepdnS                     xxx.xxx.xxx.xxx	
+windows-balanceR                xxx.xxx.xxx.xxx
+windows-canadaeast              xxx.xxx.xxx.xxx	
+windows-***1			xxx.xxx.xxx.xxx
+linux-balancer			xxx.xxx.xxx.xxx
+linux-canadaeast                xxx.xxx.xxx.xxx	
+linux-***1                      xxx.xxx.xxx.xxx 			
+
+porajmos | frankfurt
+PENDING DEPLOY
+porajmos.deepdns              	37.58.60.133
+windows-balancer		46.165.240.185
+windows-frankfurt		46.165.240.185
+windows-porajmos1	    	46.165.240.185
+linux-balancer			xxx.xxx.xxx.xxx
+linux-frankfurt		        xxx.xxx.xxx.xxx
+linux-porajmos1			xxx.xxx.xxx.xxx
+
+chelsea | Moldova 
+PENDING DEPLOY
+chelsea.deepdns              	176.123.6.110
+windows-balancer		176.123.6.111
+windows-moldova			176.123.6.111
+windows-chelsea1	    	176.123.6.111
+linux-balancer			176.123.6.112
+linux-moldova		        176.123.6.112
+linux-chelsea1			176.123.6.112
+
+
+'JUMP NODES' - ALPHA TESTING, BETA IMMINENT
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+ouroboros | Isle of Man jump node
+rDNS: ouroboros.çrÿþtøstörmðårkŋêt.xyz
+jump.isleofman                  xxx.xxx.xxx.xxx
+jump.stochastic                 xxx.xxx.xxx.xxx
+
+babayaga | russia jump node
+rDNS: babayaga.çrÿþtøstörmðårkŋêt.xyz
+jump.russia                     xxx.xxx.xxx.xxx
+jump.stochastic                 xxx.xxx.xxx.xxx
+
+chiriac | romania jump node
+rDNS: chiriac.çrÿþtøstörmðårkŋêt.xyz
+jump.romania                    xxx.xxx.xxx.xxx
+jump.stochastic                 xxx.xxx.xxx.xxx
+
+
+DEDICATED CRYPTOFREE.ORG NODES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 cryptofree-i | paris
-cf-i.deepdns			212.129.46.86 {using Onyx pending IP assignment}
-cf-i.dns			212.129.46.86 {using Onyx pending IP assignment}
+cf-i.cryptostorm.net		195.154.235.2
+cf-i.deepdns			195.154.61.33 {using cf-ii pending IP assignment; dedicated is 212.83.175.31}
+cf-i.dns			195.154.61.33 {using cf-ii pending IP assignment; dedicated is 212.83.175.31}
 windows-cryptofree1-a		195.154.33.73
 windows-cryptofree1		195.154.33.73
 windows-cryptofree		195.154.33.73
@@ -8,7 +65,7 @@ linux-cryptofree1-a		212.129.34.154
 linux-cryptofree1		212.129.34.154
 linux-cryptofree		212.129.34.154
 
-cryptofree-ii | paris {previously: bukowski}
+cryptofree-ii | paris
 cf-ii.deepdns			195.154.61.33
 cf-ii.dns			195.154.61.33
 windows-cryptofree2-a		195.154.33.76
@@ -20,23 +77,21 @@ linux-cryptofree2		212.129.10.40
 linux-cryptofree		212.129.10.40	
 
 
-majulah  | singapure
-majulah.deepdns			103.254.153.244
-windows-balancer	        103.254.153.242
-windows-singapore               103.254.153.242
-windows-majulah1                103.254.153.242
-linux-balancer			103.254.153.243
-linux-singapore			103.254.153.243
-linux-majulah1		        103.254.153.243
+FULL PRODUCTION NODES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-stakaya | uswest
-stakaya.deepdns                 76.164.234.11
-windows-balancer		76.164.234.13		
-windows-uswest			76.164.234.13
-widows-stakaya1     		76.164.234.13
-linux-balancer		    	76.164.234.12			
-linux-uswest			76.164.234.12			
-linux-stakaya1		    	76.164.234.12			
+MONTREAL-TEMPORARY
+linux-montreal                  91.214.70.206 {laika - st. petersburg}
+windows-montreal                91.214.70.207 {laika - st. petersburg}
+
+sly | uscentral
+sly.deepdns			142.54.172.53
+windows-balancer		142.54.172.51
+windows-uscentral		142.54.172.51
+windows-sly1			142.54.172.51
+linux-balancer			142.54.172.52
+linux-uscentral		  	142.54.172.52
+linux-sly1			142.54.172.52
 
 onyx | paris
 onyx.deepdns                	212.129.46.86
@@ -71,18 +126,25 @@ linux-balancer			46.165.222.248
 linux-frankfurt		        46.165.222.248
 linux-cantus1			46.165.222.248
 
-maple | Montreal
-maple.deepdns               	198.100.159.249
-windows-dynamic			198.27.76.1
-windows-balancer	        198.27.76.1
-windows-montreal	        198.27.76.1
-windows-maple1		        198.27.76.1
-linux-dynamic			198.27.89.56
-linux-balancer		        198.27.89.56
-linux-montreal		        198.27.89.56
-linux-maple1			198.27.89.56
+majulah  | singapore
+majulah.deepdns			103.254.153.244
+windows-balancer	        103.254.153.242
+windows-singapore               103.254.153.242
+windows-majulah1                103.254.153.242
+linux-balancer			103.254.153.243
+linux-singapore			103.254.153.243
+linux-majulah1		        103.254.153.243
 
-turing | London
+stakaya | uswest
+stakaya.deepdns                 76.164.234.11
+windows-balancer		76.164.234.13		
+windows-uswest			76.164.234.13
+widows-stakaya1     		76.164.234.13
+linux-balancer		    	76.164.234.12			
+linux-uswest			76.164.234.12			
+linux-stakaya1		    	76.164.234.12
+
+turing | london
 turing.deepdns	              	31.24.34.50
 windows-dynamic		      	130.180.201.118
 windows-balancer	      	130.180.201.118
@@ -93,7 +155,7 @@ linux-balancer	      	    	130.180.201.117
 linux-london		      	130.180.201.117
 linux-turing1		      	130.180.201.117
 
-tagus | Lisbon
+tagus | lisbon
 tagus.deepdns			109.71.42.228		
 windows-dynamic			109.71.42.164
 windows-balancer		109.71.42.164
@@ -104,7 +166,7 @@ linux-balancer		    	109.71.42.163
 linux-lisbon			109.71.42.163
 linux-tagus2			109.71.42.163
 
-laika  |  StPetersburg
+laika  |  st-petersburg
 laika.deepdns			91.214.70.199
 windows-dynamic			91.214.70.207
 windows-balancer		91.214.70.207
@@ -123,24 +185,7 @@ windows-miyamoto1		124.35.151.86
 linux-balancer			124.35.151.88
 linux-tokyo	  		124.35.151.88
 linux-miyamoto1			124.35.151.88
-
-sly | uscentral
-sly.deepdns			142.54.172.53
-windows-balancer		142.54.172.51
-windows-uscentral		142.54.172.51
-windows-sly1			142.54.172.51
-linux-balancer			142.54.172.52
-linux-uscentral		  	142.54.172.52
-linux-sly1			142.54.172.52
-
-jeremy | uscentral
-jeremy.deepdns			142.54.172.53 {temporary failover to sly}
-windows-balancer		142.54.172.51 {temporary failover to sly}
-windows-uscentral		142.54.172.51 {temporary failover to sly}
-windows-jeremy1			172.98.201.44
-linux-balancer			142.54.172.52 {temporary failover to sly}
-linux-uscentral		  	142.54.172.52 {temporary failover to sly}
-linux-jeremy1			172.98.201.45
+{unused}        		124.35.151.89
 
 fenrir | Iceland
 ROLLOVER MAPPINGS - LISBON (temporary)
