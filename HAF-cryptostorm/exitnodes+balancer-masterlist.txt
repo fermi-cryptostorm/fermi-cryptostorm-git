@@ -94,33 +94,27 @@ linux-sly1			142.54.172.52
 
 onyx | paris
 onyx.deepdns                	212.129.46.86
-windows-dynamic			212.83.163.209
 windows-balancer	        212.83.163.209
 windows-paris			212.83.163.209
 windows-onyx1			212.83.163.209
-linux-dynamic			212.83.167.81
 linux-balancer	    	      	212.83.167.81
 linux-paris			212.83.167.81
 linux-onyx1			212.83.167.81
 
 alors | paris
 alors.deepdns               	212.129.46.32
-windows-dynamic			212.129.25.237
 windows-balancer	     	212.129.25.237
 windows-paris			212.129.25.237
 windows-alors1		        212.129.25.237
-linux-dynamic			212.83.161.53
 linux-balancer	            	212.83.161.53
 linux-paris			212.83.161.53
 linux-alors1			212.83.161.53
 
 cantus | frankfurt
 cantus.deepdns              	46.165.222.246
-windows-dynamic			46.165.222.245
 windows-balancer		46.165.222.245
 windows-frankfurt		46.165.222.245
 windows-cantus1	    	      	46.165.222.245
-linux-dynamic			46.165.222.248
 linux-balancer			46.165.222.248
 linux-frankfurt		        46.165.222.248
 linux-cantus1			46.165.222.248
@@ -145,33 +139,27 @@ linux-stakaya1		    	76.164.234.12
 
 turing | london
 turing.deepdns	              	31.24.34.50
-windows-dynamic		      	130.180.201.118
 windows-balancer	      	130.180.201.118
 windows-london		        130.180.201.118
 windows-turing1		        130.180.201.118
-linux-dynamic			130.180.201.117
 linux-balancer	      	    	130.180.201.117
 linux-london		      	130.180.201.117
 linux-turing1		      	130.180.201.117
 
 tagus | lisbon
 tagus.deepdns			109.71.42.228		
-windows-dynamic			109.71.42.164
 windows-balancer		109.71.42.164
 windows-lisbon			109.71.42.164
 windows-tagus2			109.71.42.164
-linux-dynamic			109.71.42.163
 linux-balancer		    	109.71.42.163
 linux-lisbon			109.71.42.163
 linux-tagus2			109.71.42.163
 
 laika  |  st-petersburg
 laika.deepdns			91.214.70.199
-windows-dynamic			91.214.70.207
 windows-balancer		91.214.70.207
 windows-stpetersburg		91.214.70.207
 windows-laika1			91.214.70.207
-linux-dynamic			91.214.70.206
 linux-balancer			91.214.70.206
 linux-stpetersburg	  	91.214.70.206
 linux-laika1			91.214.70.206
@@ -189,11 +177,9 @@ linux-miyamoto1			124.35.151.88
 fenrir | Iceland
 ROLLOVER MAPPINGS - LISBON (temporary)
 fenrir.deepdns	        	109.71.42.228
-windows-dynamic			109.71.42.164
 windows-balancer		109.71.42.164
 windows-iceland			109.71.42.164
 windows-fenrir1			79.134.235.134
-linux-dynamic			109.71.42.163
 linux-balancer			109.71.42.163
 linux-iceland			109.71.42.163
 linux-fenrir1			79.134.235.133
