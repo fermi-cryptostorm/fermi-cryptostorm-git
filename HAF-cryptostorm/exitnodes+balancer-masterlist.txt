@@ -45,6 +45,14 @@ linux-cryptofree		212.129.10.40
 
 CSTORM CORE NODES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+kishinev | chisinau
+kishinev.deepdns         5.154.191.23
+windows-balancer         5.154.191.25
+windows-chisinau         5.154.191.26
+windows-kishinev1        5.154.191.25
+linux-balancer           5.154.191.24
+linux-chisinau           5.154.191.24
+linux-kishinev1           5.154.191.24
 
 stakaya | uswest
 stakaya.deepdns              	76.164.234.11
