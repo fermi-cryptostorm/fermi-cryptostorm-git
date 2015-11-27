@@ -111,3 +111,7 @@ linux-uswest
 
 And put at the end of the hostname one of these domains: cstorm.pw, cryptostorm.net, or cryptostorm.org.
 For Windows users, replace the "linux-" part of the hostname with "windows-"
+
+Or, If you don't really care which node you connect to, you can use the two balancers:
+linux-balancer.cstorm.pw (or .cryptostorm.net or .cryptostorm.org)
+windows-balancer.cstorm.pw (or .cryptostorm.net or .cryptostorm.org)
