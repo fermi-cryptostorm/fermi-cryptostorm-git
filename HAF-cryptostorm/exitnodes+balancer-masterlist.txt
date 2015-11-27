@@ -1,205 +1,113 @@
 
-JUMP / VOODOO NODES
+HALF VOODOO INSTANCES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Iceland:
+(win) entry/core: 5.154.191.26 (Moldova),    exit: 151.236.24.12 (Iceland)
+(nix) entry/core: 5.154.191.27 (Moldova),    exit: 151.236.24.85 (Iceland)
 
-pussyriot | russia voodoo
-voodoo win                	NEEDS ADDITIONAL IP ASSIGNMENT
-voodoo nix                	NEEDS ADDITIONAL IP ASSIGNMENT
+Isle of Man: 
+(win) entry/core: 104.238.194.238 (US West), exit: 37.235.55.73 (Isle of Man)
+(nix) entry/core: 5.154.191.30 (Moldova),    exit: 37.235.55.188 (Isle of Man)
 
-chiriac | romania voodoo
-voodoo win                	NEEDS ADDITIONAL IP ASSIGNMENT
-voodoo nix                	NEEDS ADDITIONAL IP ASSIGNMENT
-
-tahu | indonesia voodoo
-voodoo win                	103.56.207.103 -> 76.164.235.21 (stakaya)
-voodoo nix                	103.56.207.104 -> 76.164.235.22 (stakaya)
-
-krysha | serbia voodoo
-voodoo win                	185.75.56.101 -> 104.238.194.238 (viva)
-voodoo nix                	185.75.56.103 -> 124.35.151.89 (miyamoto)
-
+FULL VOODOO INSTANCES
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+(win) entry/jump: 176.61.137.153 (Sweden), core: 104.238.194.238 (US West), exit: 37.235.55.73 (Isle of man)
+(nix) entry/jump: 176.61.137.152 (Sweden), core: 5.154.191.30 (Moldova),    exit: 37.235.55.188 (Isle of Man)
 
 CRYPTOFREE CORE NODES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
 cryptofree-i
-cf-i.deepdns			212.83.175.31
-cf-i.dns			212.83.175.31  {temporary entry pending widget 3 return to HAF compliance}
-windows-cryptofree1-a		195.154.33.73
-windows-cryptofree1		195.154.33.73
-windows-cryptofree		195.154.33.73
-linux-cryptofree1-a		212.129.34.154
-linux-cryptofree1		212.129.34.154
-linux-cryptofree		212.129.34.154
+deepdns			212.83.175.31
+windows  		195.154.33.73
+linux       212.129.34.154
 
 cryptofree-ii
-cf-ii.deepdns			195.154.61.33
-windows-cryptofree2-a		195.154.33.76
-windows-cryptofree1-a		195.154.33.76  {temporary entry pending widget 3 return to HAF compliance}
-windows-cryptofree2		195.154.33.76	
-windows-cryptofree		195.154.33.76	
-linux-cryptofree2-a		212.129.10.40	
-linux-cryptofree2		212.129.10.40	
-linux-cryptofree		212.129.10.40	
-
+deepdns			195.154.61.33
+windows 		195.154.33.76
+linux       212.129.10.40
 
 CSTORM CORE NODES
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-kishinev | chisinau
-kishinev.deepdns         5.154.191.23
-windows-balancer         5.154.191.25
-windows-chisinau         5.154.191.26
-windows-kishinev1        5.154.191.25
-linux-balancer           5.154.191.24
-linux-chisinau           5.154.191.24
-linux-kishinev1           5.154.191.24
+Moldova
+deepdns           5.154.191.23
+windows           5.154.191.25
+linux             5.154.191.24
 
-stakaya | uswest
-stakaya.deepdns              	76.164.234.11
-windows-balancer		76.164.234.13		
-windows-uswest			76.164.234.13
-widows-stakaya1         	76.164.234.13
-linux-balancer		    	76.164.234.12			
-linux-uswest			76.164.234.12			
-linux-stakaya1			76.164.234.12
-voodoo win              	76.164.235.21
-voodoo nix              	76.164.235.22
+US West
+deepdns           76.164.234.11
+windows           76.164.234.13		
+linux             76.164.234.12			
 
-viva | uswest
-viva.deepdns	                104.238.194.235
-windows-balancer		104.238.194.237
-windows-uswest          	104.238.194.237
-windows-viva1			104.238.194.237
-linux-balancer			104.238.194.236
-linux-uswest                	104.238.194.236
-linux-viva1             	104.238.194.236
-voodoo win      		104.238.194.238
+US West
+deepdns	          104.238.194.235
+windows           104.238.194.237
+linux             104.238.194.236
 
+US East
+deepdns         	198.23.253.107
+windows		        198.23.253.109
+linux             198.23.253.108
 
-sly | uscentral
-sly.deepdns			192.151.151.163
-windows-balancer		192.151.151.164
-windows-uscentral		192.151.151.164
-windows-sly1			192.151.151.164
-linux-balancer			192.151.151.165
-linux-uscentral		  	192.151.151.165
-linux-sly1			192.151.151.165
+France
+deepdns           212.129.46.86
+windows           212.83.163.209
+linux             212.83.167.81
 
-shuffle | uscentral
-shuffle.deepdns         	69.30.211.211
-windows-balancer		69.30.211.213
-windows-uscentral       	69.30.211.213
-windows-shuffle1		69.30.211.213
-linux-balancer			69.30.211.212
-linux-uscentral         	69.30.211.212
-linux-shuffle1          	69.30.211.212
+France
+deepdns           212.129.46.32
+windows           212.129.25.237
+linux             212.83.161.53
 
+Canada West
+deepdns	          162.221.207.228		
+windows           162.221.207.233
+linux             162.221.207.229
 
-onyx | france
-onyx.deepdns                	212.129.46.86
-windows-dynamic			212.83.163.209
-windows-balancer	        212.83.163.209
-windows-paris			212.83.163.209
-windows-onyx1			212.83.163.209
-linux-dynamic			212.83.167.81
-linux-balancer	    	      	212.83.167.81
-linux-paris			212.83.167.81
-linux-onyx1			212.83.167.81
+Italy
+deepdns		        95.110.227.207
+windows           95.110.228.44
+linux             95.110.228.37
 
-alors | france
-alors.deepdns               	212.129.46.32
-windows-dynamic			212.129.25.237
-windows-balancer	     	212.129.25.237
-windows-paris			212.129.25.237
-windows-alors1		        212.129.25.237
-linux-dynamic			212.83.161.53
-linux-balancer	            	212.83.161.53
-linux-paris			212.83.161.53
-linux-alors1			212.83.161.53
+Switzerland
+deepdns           185.60.147.77
+windows           185.60.147.78
+linux             185.60.147.79
 
+Frankfurt, Germany
+deepdns           46.165.222.246
+windows           46.165.222.245
+linux             46.165.222.248
 
-skana | canadawest
-skana.deepdns	                162.221.207.228		
-windows-balancer	        162.221.207.233
-windows-canadawest              162.221.207.233
-windows-skana1			162.221.207.233
-linux-balancer			162.221.207.229
-linux-canadawest                162.221.207.229
-linux-skana1                    162.221.207.229
+Singapore
+deepdns     			103.254.153.244
+windows           103.254.153.242
+linux             103.254.153.243
 
+London, England
+deepdns          	31.24.34.50
+windows           130.180.201.118
+linux             130.180.201.117
 
-wolverine | italy
-wolverine.deepdns		95.110.227.207
-windows-balancer		95.110.228.44
-windows-rome			95.110.228.44
-windows-wolverine1		95.110.228.44
-linux-balancer			95.110.228.37
-linux-rome		  	95.110.228.37
-linux-wolverine1          	95.110.228.37
+Portugal
+deepdns			      109.71.42.228		
+windows           109.71.42.164
+linux             109.71.42.163
 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+To access the above core nodes using our redundant DNS framework (named "HAF"), use the following hostnames:
+linux-canadawest
+linux-chisinau
+linux-cryptofree
+linux-frankfurt
+linux-lisbon
+linux-london
+linux-paris
+linux-rome
+linux-singapore
+linux-switzerland
+linux-uscentral
+linux-useast
+linux-uswest
 
-jord | switzerland
-jord.deepdns                    185.60.147.77
-windows-balancer                185.60.147.78
-windows-switzerland             185.60.147.78
-windows-jord1                   185.60.147.78
-linux-balancer                  185.60.147.79
-linux-switzerland               185.60.147.79
-linux-jord1                     185.60.147.79
-
-
-cantus | germany
-cantus.deepdns              	46.165.222.246
-windows-dynamic			46.165.222.245
-windows-balancer		46.165.222.245
-windows-frankfurt		46.165.222.245
-windows-cantus1	    	      	46.165.222.245
-linux-dynamic			46.165.222.248
-linux-balancer			46.165.222.248
-linux-frankfurt		        46.165.222.248
-linux-cantus1			46.165.222.248
-
-
-majulah  | singapore
-majulah.deepdns			103.254.153.244
-windows-balancer	        103.254.153.242
-windows-singapore               103.254.153.242
-windows-majulah1                103.254.153.242
-linux-balancer			103.254.153.243
-linux-singapore			103.254.153.243
-linux-majulah1		        103.254.153.243
-
-
-turing | britain
-turing.deepdns	              	31.24.34.50
-windows-dynamic		      	130.180.201.118
-windows-balancer	      	130.180.201.118
-windows-london		        130.180.201.118
-windows-turing1		        130.180.201.118
-linux-dynamic			130.180.201.117
-linux-balancer	      	    	130.180.201.117
-linux-london		      	130.180.201.117
-linux-turing1		      	130.180.201.117
-
-
-tagus | portugal
-tagus.deepdns			109.71.42.228		
-windows-dynamic			109.71.42.164
-windows-balancer		109.71.42.164
-windows-lisbon			109.71.42.164
-windows-tagus2			109.71.42.164
-linux-dynamic			109.71.42.163
-linux-balancer		    	109.71.42.163
-linux-lisbon			109.71.42.163
-linux-tagus2			109.71.42.163
-
-
-miyamoto | japan
-miyamoto.deepdns		124.35.151.85
-windows-balancer		124.35.151.86
-windows-tokyo			124.35.151.86
-windows-miyamoto1		124.35.151.86
-linux-balancer			124.35.151.88
-linux-tokyo	  		124.35.151.88
-linux-miyamoto1			124.35.151.88
-voodoo nix        		124.35.151.89
+And put at the end of the hostname one of these domains: cstorm.pw, cryptostorm.net, or cryptostorm.org.
+For Windows users, replace the "linux-" part of the hostname with "windows-"
