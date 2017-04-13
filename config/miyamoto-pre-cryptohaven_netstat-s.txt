@@ -1,0 +1,157 @@
+[root@miyamoto ~]# netstat -s -t -u -w
+Ip:
+    221409971 total packets received
+    28780541 forwarded
+    0 incoming packets discarded
+    192522224 incoming packets delivered
+    230145664 requests sent out
+    248 outgoing packets dropped
+    380 dropped because of missing route
+    1366 fragments dropped after timeout
+    200454 reassemblies required
+    99448 packets reassembled ok
+    1369 packet reassembles failed
+    2497255 fragments received ok
+    4994513 fragments created
+Icmp:
+    1160134 ICMP messages received
+    2661 input ICMP message failed.
+    InCsumErrors: 107
+    ICMP input histogram:
+        destination unreachable: 170333
+        timeout in transit: 896085
+        source quenches: 2
+        redirects: 266
+        echo requests: 33891
+        echo replies: 59450
+    1162342 ICMP messages sent
+    0 ICMP messages failed
+    ICMP output histogram:
+        destination unreachable: 150304
+        time exceeded: 468
+        redirect: 255
+        echo request: 2
+        echo replies: 33667
+IcmpMsg:
+        InType0: 59450
+        InType3: 170333
+        InType4: 2
+        InType5: 266
+        InType8: 33891
+        InType11: 896085
+        OutType0: 33667
+        OutType3: 150304
+        OutType5: 255
+        OutType8: 2
+        OutType11: 468
+        OutType69: 977646
+Tcp:
+    397419 active connections openings
+    746544 passive connection openings
+    48608 failed connection attempts
+    120198 connection resets received
+    301 connections established
+    174017903 segments received
+    171286970 segments send out
+    4752824 segments retransmited
+    3773 bad segments received.
+    73866 resets sent
+    InCsumErrors: 527
+Udp:
+    17154968 packets received
+    163957 packets to unknown port received.
+    137 packet receive errors
+    24132321 packets sent
+    54 receive buffer errors
+    0 send buffer errors
+    InCsumErrors: 79
+    IgnoredMulti: 25124
+UdpLite:
+TcpExt:
+    11533 resets received for embryonic SYN_RECV sockets
+    1 ICMP packets dropped because they were out-of-window
+    765206 TCP sockets finished time wait in fast timer
+    640 packets rejects in established connections because of timestamp
+    6294993 delayed acks sent
+    2971 delayed acks further delayed because of locked socket
+    Quick ack mode was activated 73745 times
+    93 times the listen queue of a socket overflowed
+    16268 SYNs to LISTEN sockets dropped
+    9623 packets directly queued to recvmsg prequeue.
+    45776 bytes directly in process context from backlog
+    39995 bytes directly received in process context from prequeue
+    56449832 packet headers predicted
+    31 packets header predicted and directly queued to user
+    39487735 acknowledgments not containing data payload received
+    34429685 predicted acknowledgments
+    34 times recovered from packet loss due to fast retransmit
+    1390327 times recovered from packet loss by selective acknowledgements
+    29 bad SACK blocks received
+    Detected reordering 81 times using FACK
+    Detected reordering 565 times using SACK
+    Detected reordering 58 times using time stamp
+    111 congestion windows fully recovered without slow start
+    54 congestion windows partially recovered using Hoe heuristic
+    2896 congestion windows recovered without slow start by DSACK
+    89204 congestion windows recovered without slow start after partial ack
+    TCPLostRetransmit: 126471
+    13 timeouts after reno fast retransmit
+    80099 timeouts after SACK recovery
+    29326 timeouts in loss state
+    3718525 fast retransmits
+    67554 forward retransmits
+    319479 retransmits in slow start
+    116503 other TCP timeouts
+    TCPLossProbes: 183407
+    TCPLossProbeRecovery: 31146
+    3 classic Reno fast retransmits failed
+    125305 SACK retransmits failed
+    87728 DSACKs sent for old packets
+    691 DSACKs sent for out of order packets
+    52127 DSACKs received
+    1883 DSACKs for out of order packets received
+    118336 connections reset due to unexpected data
+    3403 connections reset due to early user close
+    38058 connections aborted due to timeout
+    TCPSACKDiscard: 5
+    TCPDSACKIgnoredOld: 440
+    TCPDSACKIgnoredNoUndo: 14160
+    TCPSpuriousRTOs: 71374
+    TCPSackShiftFallback: 13037824
+    TCPDeferAcceptDrop: 93
+    IPReversePathFilter: 246
+    TCPReqQFullDrop: 16146
+    TCPRetransFail: 1
+    TCPRcvCoalesce: 71472505
+    TCPOFOQueue: 12063893
+    TCPOFOMerge: 422
+    TCPChallengeACK: 18311
+    TCPSYNChallenge: 3258
+    TCPFastOpenCookieReqd: 6
+    TCPSpuriousRtxHostQueues: 14
+    TCPAutoCorking: 7998887
+    TCPFromZeroWindowAdv: 99987
+    TCPToZeroWindowAdv: 99987
+    TCPWantZeroWindowAdv: 1531833
+    TCPSynRetrans: 213416
+    TCPOrigDataSent: 120117320
+    TCPHystartTrainDetect: 1
+    TCPHystartTrainCwnd: 20
+    TCPHystartDelayDetect: 687
+    TCPHystartDelayCwnd: 22067
+    TCPACKSkippedSynRecv: 94
+    TCPACKSkippedPAWS: 14
+    TCPACKSkippedSeq: 1785
+    TCPACKSkippedTimeWait: 27
+    TCPACKSkippedChallenge: 87
+IpExt:
+    InMcastPkts: 5681
+    InBcastPkts: 19443
+    InOctets: 201675484653
+    OutOctets: 241514883077
+    InMcastOctets: 249964
+    InBcastOctets: 1760547
+    InNoECTPkts: 242120289
+    InECT1Pkts: 9707
+    InECT0Pkts: 27143
+    InCEPkts: 100381

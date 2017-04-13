@@ -1,0 +1,156 @@
+[root@alors log]# netstat -s -t -u -w
+Ip:
+    19435762455 total packets received
+    8278 with invalid headers
+    11348630084 forwarded
+    65 with unknown protocol
+    0 incoming packets discarded
+    7990350444 incoming packets delivered
+    23261539321 requests sent out
+    44385 outgoing packets dropped
+    204 dropped because of missing route
+    179299 fragments dropped after timeout
+    126897509 reassemblies required
+    36897877 packets reassembled ok
+    47067280 packet reassembles failed
+    102828959 fragments received ok
+    205739393 fragments created
+Icmp:
+    4763340 ICMP messages received
+    1829912 input ICMP message failed.
+    InCsumErrors: 49845
+    ICMP input histogram:
+        destination unreachable: 2655001
+        timeout in transit: 82459
+        source quenches: 495
+        redirects: 5042
+        echo requests: 1970219
+        echo replies: 249
+        timestamp request: 30
+    2726897 ICMP messages sent
+    0 ICMP messages failed
+    ICMP output histogram:
+        destination unreachable: 631987
+        time exceeded: 82772
+        redirect: 43761
+        echo request: 20
+        echo replies: 1967545
+        timestamp replies: 30
+IcmpMsg:
+        InType0: 249
+        InType3: 2655001
+        InType4: 495
+        InType5: 5042
+        InType8: 1970219
+        InType11: 82459
+        InType13: 30
+        OutType0: 1967545
+        OutType3: 631987
+        OutType5: 43761
+        OutType8: 20
+        OutType11: 82772
+        OutType14: 30
+        OutType69: 782
+Tcp:
+    2532993 active connections openings
+    144753551 passive connection openings
+    2202812 failed connection attempts
+    1439933 connection resets received
+    58 connections established
+    999435238 segments received
+    1059414500 segments send out
+    19941191 segments retransmited
+    52208 bad segments received.
+    28727145 resets sent
+    InCsumErrors: 30666
+Udp:
+    6810465217 packets received
+    622772 packets to unknown port received.
+    34204990 packet receive errors
+    10902286615 packets sent
+    RcvbufErrors: 34068903
+    SndbufErrors: 626
+    InCsumErrors: 123078
+UdpLite:
+TcpExt:
+    1986791 resets received for embryonic SYN_RECV sockets
+    510 packets pruned from receive queue because of socket buffer overrun
+    392 ICMP packets dropped because they were out-of-window
+    134667972 TCP sockets finished time wait in fast timer
+    3 packets rejects in established connections because of timestamp
+    3775634 delayed acks sent
+    16123 delayed acks further delayed because of locked socket
+    Quick ack mode was activated 1598275 times
+    31971361 times the listen queue of a socket overflowed
+    36718661 SYNs to LISTEN sockets ignored
+    390913 packets directly queued to recvmsg prequeue.
+    29138655 packets directly received from backlog
+    16954884 packets directly received from prequeue
+    76597793 packets header predicted
+    17398 packets header predicted and directly queued to user
+    294783759 acknowledgments not containing data received
+    90371408 predicted acknowledgments
+    26 times recovered from packet loss due to fast retransmit
+    166357 times recovered from packet loss due to SACK data
+    469 bad SACKs received
+    Detected reordering 157 times using FACK
+    Detected reordering 987 times using SACK
+    Detected reordering 2 times using reno fast retransmit
+    506 congestion windows fully recovered
+    1 congestion windows partially recovered using Hoe heuristic
+    TCPDSACKUndo: 21204
+    88804 congestion windows recovered after partial ack
+    TCPLostRetransmit: 14649
+    22 timeouts after reno fast retransmit
+    17666 timeouts after SACK recovery
+    8651 timeouts in loss state
+    490788 fast retransmits
+    48945 forward retransmits
+    93398 retransmits in slow start
+    11955172 other TCP timeouts
+    TCPLossProbes: 2945985
+    TCPLossProbeRecovery: 171819
+    TCPRenoRecoveryFail: 6
+    30107 sack retransmits failed
+    12611 packets collapsed in receive queue due to low socket buffer
+    1633043 DSACKs sent for old packets
+    1238 DSACKs sent for out of order packets
+    3090620 DSACKs received
+    850 DSACKs for out of order packets received
+    6610458 connections reset due to unexpected data
+    31729 connections reset due to early user close
+    661100 connections aborted due to timeout
+    TCPSACKDiscard: 59094
+    TCPDSACKIgnoredOld: 91575
+    TCPDSACKIgnoredNoUndo: 1433938
+    TCPSpuriousRTOs: 32518
+    TCPSackShifted: 144270
+    TCPSackMerged: 1014629
+    TCPSackShiftFallback: 2533300
+    TCPDeferAcceptDrop: 8692
+    TCPReqQFullDrop: 4730433
+    TCPRetransFail: 69
+    TCPRcvCoalesce: 31763592
+    TCPOFOQueue: 668647
+    TCPOFOMerge: 1091
+    TCPChallengeACK: 217623
+    TCPSYNChallenge: 21341
+    TCPSpuriousRtxHostQueues: 22
+    TCPAutoCorking: 21957749
+    TCPFromZeroWindowAdv: 950
+    TCPToZeroWindowAdv: 950
+    TCPWantZeroWindowAdv: 15423
+    TCPSynRetrans: 11266191
+    TCPOrigDataSent: 515896783
+IpExt:
+    InNoRoutes: 1
+    InMcastPkts: 117111
+    InBcastPkts: 140740657
+    InOctets: 12065809295376
+    OutOctets: 27256591063905
+    InMcastOctets: 5185313
+    InBcastOctets: 11172916462
+    InNoECTPkts: 20523600765
+    InECT1Pkts: 502381
+    InECT0Pkts: 112359409
+    InCEPkts: 91429028
