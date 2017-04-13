@@ -1,2 +1,0 @@
-This list is no longer maintained.
-For the OpenVPN configs, visit https://github.com/cryptostorm/conf/
