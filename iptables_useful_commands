@@ -1,0 +1,15 @@
+usefull command to watch iptables counters:
+
+watch -d --interval 0 'iptables -nvL | grep -v "0     0"'
+
+This will allow you to watch as matches occur in real-time. To filter out only ACCEPT, DROP, LOG..etc, then run the following command: watch 'iptables -nvL | grep -v "0 0" && grep "ACCEPT"' The -v is used to do an inverted filter. ie. NOT "0 0"
+It'll highlight [-d] (with a box over it) any changes since the last refresh.
+
+watch -d --interval 2 'iptables -nvL | grep -v "0     0"'
+Induces two second refresh.
+
+to investigate: https://collectd.org/wiki/index.php/Iptables
+
+reset counters: iptables -L -Z -v
+
+

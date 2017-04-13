@@ -1,0 +1,82 @@
+iptables -A INPUT -i lo -j ACCEPT -m comment --comment "Allow loopback device"
+iptables -A OUTPUT -o lo -j ACCEPT -m comment --comment "Allow loopback device"
+
+iptables -A INPUT -s 127.0.1.1 -j ACCEPT -m comment --comment "resolv"
+iptables -A OUTPUT -d 127.0.1.1 -j ACCEPT -m comment --comment "resolv"
+
+iptables -A INPUT -s 192.168.1.0/24 -j ACCEPT -m comment --comment "allow all local traffic"
+iptables -A OUTPUT -d 192.168.1.0/24 -j ACCEPT -m comment --comment "allow all local traffic"
+iptables -A INPUT -i eth0 -m conntrack --ctstate RELATED,ESTABLISHED -j ACCEPT
+
+iptables -A OUTPUT -d 212.129.46.32 -p udp --dport 53 -j ACCEPT -m comment --comment "alors.deepdns.cryptostorm.net - cryptostorm-shared.deepdns.net"
+iptables -A INPUT -s 212.129.46.32 -p udp --sport 53 -j ACCEPT -m comment --comment "alors.deepdns.cryptostorm.net - cryptostorm-shared.deepdns.net"
+
+iptables -A OUTPUT -d 46.165.222.246 -p udp --dport 53 -j ACCEPT -m comment --comment "cantus.deepdns.cryptostorm.net - cryptostorm-shared.deepdns.net"
+iptables -A INPUT -s 46.165.222.246 -p udp --sport 53 -j ACCEPT -m comment --comment "cantus.deepdns.cryptostorm.net - cryptostorm-shared.deepdns.net"
+
+iptables -A OUTPUT -d 79.134.235.131 -p udp --dport 53 -j ACCEPT -m comment --comment "fenrir.deepdns.cryptostorm.net - cryptostorm-shared.deepdns.net"
+iptables -A INPUT -s 79.134.235.131 -p udp --sport 53 -j ACCEPT -m comment --comment "fenrir.deepdns.cryptostorm.net - cryptostorm-shared.deepdns.net"
+
+iptables -A OUTPUT -d 91.214.70.199 -p udp --dport 53 -j ACCEPT -m comment --comment "laika.deepdns.cryptostorm.net - cryptostorm-shared.deepdns.net"
+iptables -A INPUT -s 91.214.70.199 -p udp --sport 53 -j ACCEPT -m comment --comment "laika.deepdns.cryptostorm.net - cryptostorm-shared.deepdns.net"
+
+iptables -A OUTPUT -d 103.254.153.244 -p udp --dport 53 -j ACCEPT -m comment --comment "majulah.deepdns.cryptostorm.net - cryptostorm-shared.deepdns.net"
+iptables -A INPUT -s 103.254.153.244 -p udp --sport 53 -j ACCEPT -m comment --comment "majulah.deepdns.cryptostorm.net - cryptostorm-shared.deepdns.net"
+
+iptables -A OUTPUT -d 198.100.159.249 -p udp --dport 53 -j ACCEPT -m comment --comment "maple.deepdns.cryptostorm.net - cryptostorm-shared.deepdns.net"
+iptables -A INPUT -s 198.100.159.249 -p udp --sport 53 -j ACCEPT -m comment --comment "maple.deepdns.cryptostorm.net - cryptostorm-shared.deepdns.net"
+
+iptables -A OUTPUT -d 198.204.245.3 -p udp --dport 53 -j ACCEPT -m comment --comment "mishigami.deepdns.cryptostorm.net - cryptostorm-shared.deepdns.net"
+iptables -A INPUT -s 198.204.245.3 -p udp --sport 53 -j ACCEPT -m comment --comment "mishigami.deepdns.cryptostorm.net - cryptostorm-shared.deepdns.net"
+
+iptables -A OUTPUT -d 212.129.46.86 -p udp --dport 53 -j ACCEPT -m comment --comment "onyx.deepdns.cryptostorm.net - cryptostorm-shared.deepdns.net"
+iptables -A INPUT -s 212.129.46.86 -p udp --sport 53 -j ACCEPT -m comment --comment "onyx.deepdns.cryptostorm.net - cryptostorm-shared.deepdns.net"
+
+iptables -A OUTPUT -d 76.164.234.11 -p udp --dport 53 -j ACCEPT -m comment --comment "stakaya.deepdns.cryptostorm.net - cryptostorm-shared.deepdns.net"
+iptables -A INPUT -s 76.164.234.11 -p udp --sport 53 -j ACCEPT -m comment --comment "stakaya.deepdns.cryptostorm.net - cryptostorm-shared.deepdns.net"
+
+iptables -A OUTPUT -d 109.71.42.228 -p udp --dport 53 -j ACCEPT -m comment --comment "tagus.deepdns.cryptostorm.net - cryptostorm-shared.deepdns.net"
+iptables -A INPUT -s 109.71.42.228 -p udp --sport 53 -j ACCEPT -m comment --comment "tagus.deepdns.cryptostorm.net - cryptostorm-shared.deepdns.net"
+
+iptables -A OUTPUT -d 31.24.34.50 -p udp --dport 53 -j ACCEPT -m comment --comment "turing.deepdns.cryptostorm.net - cryptostorm-shared.deepdns.net"
+iptables -A INPUT -s 31.24.34.50 -p udp --sport 53 -j ACCEPT -m comment --comment "turing.deepdns.cryptostorm.net - cryptostorm-shared.deepdns.net"
+
+iptables -A OUTPUT -d 212.83.161.53 -p udp --dport 443 -j ACCEPT -m comment --comment "linux-alors1.cryptostorm.net - linux-paris.cryptostorm.net"
+iptables -A INPUT -s 212.83.161.53 -p udp --sport 443 -j ACCEPT -m comment --comment "linux-alors1.cryptostorm.net - linux-paris.cryptostorm.net"
+
+iptables -A OUTPUT -d 46.165.222.248 -p udp --dport 443 -j ACCEPT -m comment --comment "linux-cantus1.cryptostorm.net - linux-frankfurt.cryptostorm.net - linux-balancer.cryptostorm.net"
+iptables -A INPUT -s 46.165.222.248 -p udp --sport 443 -j ACCEPT -m comment --comment "linux-cantus1.cryptostorm.net - linux-frankfurt.cryptostorm.net - linux-balancer.cryptostorm.net"
+
+iptables -A OUTPUT -d 79.134.235.133 -p udp --dport 443 -j ACCEPT -m comment --comment "linux-fenrir1.cryptostorm.net - linux-iceland.cryptostorm.net - linux-balancer.cryptostorm.net"
+iptables -A INPUT -s 79.134.235.133 -p udp --sport 443 -j ACCEPT -m comment --comment "linux-fenrir1.cryptostorm.net - linux-iceland.cryptostorm.net - linux-balancer.cryptostorm.net"
+
+iptables -A OUTPUT -d 91.214.70.206 -p udp --dport 443 -j ACCEPT -m comment --comment "linux-laika1.cryptostorm.net - linux-stpetersburg.cryptostorm.net - linux-balancer.cryptostorm.net"
+iptables -A INPUT -s 91.214.70.206 -p udp --sport 443 -j ACCEPT -m comment --comment "linux-laika1.cryptostorm.net - linux-stpetersburg.cryptostorm.net - linux-balancer.cryptostorm.net"
+
+iptables -A OUTPUT -d 103.254.153.243 -p udp --dport 443 -j ACCEPT -m comment --comment "linux-majulah1.cryptostorm.net - linux-singapore.cryptostorm.net - linux-balancer.cryptostorm.net"
+iptables -A INPUT -s 103.254.153.243 -p udp --sport 443 -j ACCEPT -m comment --comment "linux-majulah1.cryptostorm.net - linux-singapore.cryptostorm.net - linux-balancer.cryptostorm.net"
+
+iptables -A OUTPUT -d 198.27.89.56 -p udp --dport 443 -j ACCEPT -m comment --comment "linux-maple1.cryptostorm.net - linux-montreal.cryptostorm.net - linux-balancer.cryptostorm.net"
+iptables -A INPUT -s 198.27.89.56 -p udp --sport 443 -j ACCEPT -m comment --comment "linux-maple1.cryptostorm.net - linux-montreal.cryptostorm.net - linux-balancer.cryptostorm.net"
+
+iptables -A OUTPUT -d 198.204.245.2 -p udp --dport 443 -j ACCEPT -m comment --comment "mishigami.cryptostorm.net - linux-uscentral.cryptostorm.net - linux-balancer.cryptostorm.net"
+iptables -A INPUT -s 198.204.245.2 -p udp --sport 443 -j ACCEPT -m comment --comment "mishigami.cryptostorm.net - linux-uscentral.cryptostorm.net - linux-balancer.cryptostorm.net"
+
+iptables -A OUTPUT -d 212.83.167.81 -p udp --dport 443 -j ACCEPT -m comment --comment "linux-onyx1.cryptostorm.net - linux-paris.cryptostorm.net - linux-balancer.cryptostorm.net"
+iptables -A INPUT -s 212.83.167.81 -p udp --sport 443 -j ACCEPT -m comment --comment "linux-onyx1.cryptostorm.net - linux-paris.cryptostorm.net - linux-balancer.cryptostorm.net"
+
+iptables -A OUTPUT -d 76.164.234.12 -p udp --dport 443 -j ACCEPT -m comment --comment "linux-stakaya1.cryptostorm.net - linux-uswest.cryptostorm.net - linux-balancer.cryptostorm.net"
+iptables -A INPUT -s 76.164.234.12 -p udp --sport 443 -j ACCEPT -m comment --comment "linux-stakaya1.cryptostorm.net - linux-uswest.cryptostorm.net - linux-balancer.cryptostorm.net"
+
+iptables -A OUTPUT -d 109.71.42.163 -p udp --dport 443 -j ACCEPT -m comment --comment "linux-lisbon.cryptostorm.net - linux-balancer.cryptostorm.net"
+iptables -A INPUT -s 109.71.42.163 -p udp --sport 443 -j ACCEPT -m comment --comment "linux-lisbon.cryptostorm.net - linux-balancer.cryptostorm.net"
+
+iptables -A OUTPUT -d 130.180.201.117 -p udp --dport 443 -j ACCEPT -m comment --comment "linux-turing1.cryptostorm.net - linux-london.cryptostorm.net - linux-balancer.cryptostorm.net"
+iptables -A INPUT -s 130.180.201.117 -p udp --sport 443 -j ACCEPT -m comment --comment "linux-turing1.cryptostorm.net - linux-london.cryptostorm.net - linux-balancer.cryptostorm.net"
+
+iptables -A OUTPUT -o tun+ -j ACCEPT -m comment --comment "accept all TUN connections"
+iptables -A INPUT -i tun+ -j ACCEPT -m comment --comment "accept all TUN connections"
+
+iptables -P INPUT DROP -m comment --comment "set default policies to drop all communication unless specifically allowed"
+iptables -P OUTPUT DROP -m comment --comment "set default policies to drop all communication unless specifically allowed"
+iptables -P FORWARD DROP -m comment --comment "set default policies to drop all communication unless specifically allowed"
